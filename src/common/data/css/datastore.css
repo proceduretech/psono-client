@@ -87,8 +87,8 @@ body {
   border-color: #1A2762; }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-  background-color: #2ba880;
-  border-color: #2ba880; }
+  background-color: #152981;
+  border-color: #0a1f80; }
 
 .loginbox-translate.open .dropdown-toggle.btn-primary {
   background-color: #151f2b;
@@ -110,7 +110,7 @@ body {
   font-size: small;
   margin-bottom: 0;
   margin-top: 5px;
-  color: #2ba880; }
+  color: #1A2762; }
 
 .path_box_parent {
   margin-bottom: 5px;

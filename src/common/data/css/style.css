@@ -274,14 +274,14 @@ p.horizontalline span {
   background: #2ba880; }
 
 #loading-bar .peg {
-  -moz-box-shadow: #2ba880 1px 0 6px 1px;
-  -ms-box-shadow: #2ba880 1px 0 6px 1px;
-  -webkit-box-shadow: #2ba880 1px 0 6px 1px;
-  box-shadow: #2ba880 1px 0 6px 1px; }
+  -moz-box-shadow: #697dda 1px 0 6px 1px;
+  -ms-box-shadow: #697dda 1px 0 6px 1px;
+  -webkit-box-shadow: #697dda 1px 0 6px 1px;
+  box-shadow: #697dda 1px 0 6px 1px; }
 
 #loading-bar-spinner .spinner-icon {
-  border-top-color: #2ba880;
-  border-left-color: #2ba880; }
+  border-top-color: #697dda;
+  border-left-color: #697dda; }
 
 /* Fix Bootstrap disabled */
 .dropdown-menu > .disabled > a,
