@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  
+  psono-client:
+    container_name: psono-client
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - '10101:80'
+    volumes:
+      - ./config.json:/usr/share/nginx/html/config.json
+      

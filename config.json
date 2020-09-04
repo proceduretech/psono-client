@@ -1,0 +1,13 @@
+{
+  "backend_servers": [{
+    "title": "Housemedicine Secure",
+    "url": "https://vault.housemedicine.com/server"
+  }],
+  "base_url": "https://vault.housemedicine.com/",
+  "allow_custom_server": false,
+  "allow_registration": true,
+  "allow_lost_password": true,
+  "disable_download_bar": true,
+  "authentication_methods": ["AUTHKEY"],
+  "saml_provider": []
+}

@@ -112,7 +112,7 @@
 <div ng-if="view === 'logged_out'" ng-controller="LoginCtrl" class="loginbox">
     <!-- Not logged in, show the login form -->
     <img src="img/logo.png" alt="HW Vault Web Client" id="logo">
-    <a href="https://housemedicine.com/" target="_blank" rel="noopener" class="infolabel"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+    <!-- <a href="https://housemedicine.com/" target="_blank" rel="noopener" class="infolabel"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
 
     <div class="btn-group loginbox-translate" uib-dropdown keyboard-nav ng-controller="LanguagePickerCtrl">
         <button id="language-picker" type="button" class="btn btn-primary" uib-dropdown-toggle>
@@ -130,7 +130,7 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div> -->
 
     <form name="loginForm" ng-if="view === 'default'" autocomplete="off">
         <div ng-if="saml_enabled" ng-repeat="provider in saml_provider">
